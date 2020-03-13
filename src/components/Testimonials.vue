@@ -2,14 +2,14 @@
   <mdb-carousel testimonial :interval="7000" controlls :items="7">
     <template #[i+1] v-for="(testimonial, i) in testimonials">
       <mdb-testimonial class="text-center" :key="i">
-        <p class="lead p-0 p-md-5">
+        <p class="lead p-0 p-md-5 mb-0">
           <sup><span class="fas fa-quote-left orange-text"></span></sup>
           {{ testimonial.quote }}
         </p>
         <p class="font-weight-bold mb-0">{{ testimonial.name }}</p>
         <p class="my-1 small">{{ testimonial.position }}</p>
         <mdb-rating
-          class="small"
+          class="small mb-2"
           :value="testimonial.rating"
           disabled
           fas

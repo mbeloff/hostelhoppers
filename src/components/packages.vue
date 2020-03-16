@@ -114,7 +114,21 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-7">
+          <div
+            class="col-12 h-100 d-flex flex-column view"
+            style="background-image: url(https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_800,w_800/v1583127953/DJI_0989.jpg); background-size: cover; background-position: 50% 50%; border-radius: 3px; min-height: 488px;"
+          >
+            <div class="mask rgba-white-slight"></div>
+            <h1 class="display-4 white-text text-center">
+              <!-- The Cheapest Way To Travel -->
+            </h1>
+            <Testimonials
+              class="my-auto rgba-white-strong rounded mb-3 py-3 z-depth-1 mx-0 mx-md-2"
+            ></Testimonials>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 text-muted small mt-5 mt-md-0">
           <h3 class="font-weight-bold orange-text pb-2 mb-4">
             We've Got You Covered
           </h3>
@@ -126,21 +140,23 @@
           </p>
           <!-- <div class="col-12"> -->
           <dl class="row not-featured rounded mb-0">
-            <h5 class="orange-text card-header col-12">Damage Cover</h5>
+            <h5 class="orange-text card-header col-12 pl-2 mb-2">
+              Damage Cover
+            </h5>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Standard Car</dt>
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$30/day</dd>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Tourer 5</dt>
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$45/day</dd>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">4WD SUV</dt>
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$55/day</dd>
-            <h5 class="orange-text card-header col-12">
+            <h5 class="orange-text card-header col-12 pl-2 mb-2">
               Dropoff in a Different Location
             </h5>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 1</dt>
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 2</dt>
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$300</dd>
-            <h5 class="orange-text card-header col-12">
+            <h5 class="orange-text card-header col-12 pl-2 mb-2">
               Premium Location Fees
             </h5>
             <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
@@ -153,20 +169,6 @@
             <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$200</dd>
           </dl>
           <!-- </div> -->
-        </div>
-        <div class="col-12 col-md-6">
-          <div
-            class="col-12 h-100 d-flex flex-column view"
-            style="background-image: url(https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_800,w_800/v1583127953/DJI_0989.jpg); background-size: cover; background-position: 50% 50%; border-radius: 3px; min-height: 565px;"
-          >
-            <div class="mask rgba-white-slight"></div>
-            <h1 class="display-4 white-text text-center">
-              <!-- The Cheapest Way To Travel -->
-            </h1>
-            <Testimonials
-              class="my-auto rgba-white-strong rounded mb-3 py-3 z-depth-1 mx-0 mx-md-2"
-            ></Testimonials>
-          </div>
         </div>
       </div>
     </div>
@@ -183,6 +185,10 @@ export default {
 </script>
 
 <style lang="scss">
+dd {
+  margin-bottom: 0 !important;
+}
+
 .pricing-card {
   text-align: center;
   ul {
@@ -208,7 +214,6 @@ export default {
   }
   .strike:before {
     content: ' ';
-    // background-color: red;
     width: 20px;
     height: 1px;
     left: -0.35rem;
@@ -254,9 +259,11 @@ export default {
       }
     }
   }
+
   .card-background {
     // background-color: #28283f;
   }
+
   .btn-rounded {
     padding: 0.2rem 2rem;
     height: 50px;
@@ -266,38 +273,21 @@ export default {
     border: none;
     color: white;
   }
+
   .btn-rounded:hover {
     color: rgb(70, 70, 70);
   }
+
   button:focus {
     border: none;
   }
 }
 
-.gradient-one {
-  // background-image: linear-gradient(45deg, rgba(0, 255, 242, 0.616), rgba(0, 89, 255, 0.658));
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 81, 0, 0.616),
-    rgba(255, 0, 0, 0.658)
-  );
-}
-.gradient-two {
-  // background-image: linear-gradient(45deg, rgba(119, 0, 255, 0.616), rgba(255, 0, 13, 0.658));
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 81, 0, 0.616),
-    rgba(255, 0, 0, 0.658)
-  );
-}
-.gradient-three {
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 81, 0, 0.616),
-    rgba(255, 0, 0, 0.658)
-  );
-}
+.gradient-one,
+.gradient-two,
+.gradient-three,
 .gradient-four {
+  // background-image: linear-gradient(45deg, rgba(0, 255, 242, 0.616), rgba(0, 89, 255, 0.658));
   background-image: linear-gradient(
     45deg,
     rgba(255, 81, 0, 0.616),

@@ -52,7 +52,7 @@
     <div id="footer">
       <div class="container-fluid bg-light p-2">
         <p class="mb-0 orange-text h3 text-center py-5 my-2">
-          Book with your friendly travel agent today
+          Available from your friendly travel agent
         </p>
       </div>
       <div class="container-fluid flex-center orange">

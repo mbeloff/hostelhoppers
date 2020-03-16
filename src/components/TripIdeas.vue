@@ -1,16 +1,22 @@
 <template>
-  <div class="col">
-    <div class="trips" v-for="region in trips" :key="region">
-      <h2 class="orange-text">{{ region.country }}</h2>
-      <h5>Weekend Getaways</h5>
+  <div class="text-muted">
+    <h1 class="text-muted">Trip Ideas</h1>
+    <p class="text-justify small">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia
+      recusandae et distinctio, ipsa voluptate nemo veniam dicta debitis nam
+      facilis ex. Enim, doloremque animi?
+    </p>
+    <div class="trips mb-4" v-for="region in trips" :key="region">
+      <h4 class="amber-text">{{ region.country }}</h4>
+      <h5 class="mt-2">Weekend Getaways</h5>
       <dl class="row mb-0 small" v-for="trip in region.short" :key="trip">
-        <dt class="col-6 font-weight-normal">{{ trip.name }}</dt>
-        <dd class="col-6 orange-text mb-0">{{ trip.days }} days</dd>
+        <dt class="col-8 font-weight-normal">{{ trip.name }}</dt>
+        <dd class="col-4 mb-0">{{ trip.days }} days</dd>
       </dl>
-      <h5>Longer Trips</h5>
+      <h5 class="mt-2">Longer Trips</h5>
       <dl class="row mb-0 small" v-for="trip in region.long" :key="trip">
-        <dt class="col-6 font-weight-normal">{{ trip.name }}</dt>
-        <dd class="col-6 orange-text mb-0">{{ trip.days }} days</dd>
+        <dt class="col-8 font-weight-normal">{{ trip.name }}</dt>
+        <dd class="col-4 mb-0">{{ trip.days }} days</dd>
       </dl>
     </div>
   </div>
@@ -22,6 +28,10 @@ dl:nth-of-type(odd) {
 
 dl {
   margin-bottom: 1rem !important;
+}
+
+.trips {
+  margin-bottom: 2rem;
 }
 </style>
 

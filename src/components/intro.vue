@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="intro-section d-flex flex-center view">
-      <div class="mask intro-mask"></div>
       <div class="text-center">
         <img class="header-logo" src="../assets/hh-type2.svg" alt="" />
         <h3 class=" subtitle white-text mt-5">
@@ -11,33 +10,39 @@
     </div>
 
     <div class="container pt-5">
-      <h3 class="font-weight-bold orange-text pb-2 mb-4">
-        What is Hostel Hoppers?
-      </h3>
-      <p>
-        Hostel Hoppers is the cheapest and easiest way to travel around
-        Australia and New Zealand. Get huge savings by grabbing a Hostel Hoppers
-        season pass - pre-paid use of any Hostel Hoppers vehicle, whenever you
-        want, wherever you want!
-      </p>
+      <div class="col-12 col-md-10 col-lg-8  mx-auto text-justify">
+        <h3 class="font-weight-bold orange-text pb-2 mb-4">
+          What is Hostel Hoppers?
+        </h3>
+        <p>
+          Hostel Hoppers is the cheapest and easiest way to travel around
+          Australia and New Zealand. Get huge savings by grabbing a Hostel
+          Hoppers season pass - pre-paid use of any Hostel Hoppers vehicle,
+          whenever you want, wherever you want!
+        </p>
+      </div>
     </div>
     <div class="container pt-5">
-      <h3 class="font-weight-bold orange-text pb-2 mb-4">How does it Work?</h3>
-      <p>
-        Hostel Hoppers is a season pass for 12 months. With a season pass you
-        can pick up a Hostel Hoppers car, 4WD SUV or spacious tourer, anytime
-        you want, whether it's for a day, a long weekend getaway, or a
-        month-long cross-country roadtrip.
-      </p>
-      <p>
-        And because your season pass covers the daily rental rate, you won't
-        have to worry about prices fluctuating during the year, even during peak
-        season!
-      </p>
-      <p>
-        Hostel Hoppers season passes can be transferred into another name, or
-        even extended for a small fee.
-      </p>
+      <div class="col-12 col-md-10 col-lg-8 mx-auto text-justify">
+        <h3 class="font-weight-bold orange-text pb-2 mb-4">
+          How does it Work?
+        </h3>
+        <p>
+          Hostel Hoppers is a season pass for 12 months. With a season pass you
+          can pick up a Hostel Hoppers car, 4WD SUV or spacious tourer, anytime
+          you want, whether it's for a day, a long weekend getaway, or a
+          month-long cross-country roadtrip.
+        </p>
+        <p>
+          And because your season pass covers the daily rental rate, you won't
+          have to worry about prices fluctuating during the year, even during
+          peak season!
+        </p>
+        <p>
+          Hostel Hoppers season passes can be transferred into another name, or
+          even extended for a small fee.
+        </p>
+      </div>
     </div>
     <div class="container pt-5 mb-5">
       <div class="d-flex flex-wrap justify-content-around">
@@ -115,10 +120,13 @@ export default {
   max-height: 300px;
   // background-image: url('https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_1200,w_1200/v1583127953/DJI_0989.jpg');
   background-image: radial-gradient(rgb(151, 209, 248), rgb(0, 62, 112));
-  background-size: 100% 250%;
+  background-size: 100vw 200%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  @media only screen and (max-width: 500px) {
+    background-size: 150vw 100%;
+  }
 }
 
 .header-logo {
@@ -127,14 +135,9 @@ export default {
 
 .subtitle {
   // text-shadow: 1px 1px 15px black;
-}
-
-.intro-mask {
-  // background-image: linear-gradient(
-  //   rgba(255, 255, 255, 0.082),
-  //   rgb(255, 255, 255)
-  // );
-  // background: rgba(243, 112, 37, 0.26);
+  @media only screen and (max-width: 500px) {
+    font-size: 5vw;
+  }
 }
 
 .square-outside {

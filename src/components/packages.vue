@@ -248,11 +248,6 @@ dd {
         border-color: rgb(137, 5, 224);
       }
     }
-    &.darker-striped {
-      li {
-        border-bottom: 1px solid #333;
-      }
-    }
     &.blue-striped {
       li {
         border-color: rgb(30, 128, 255);
@@ -287,7 +282,6 @@ dd {
 .gradient-two,
 .gradient-three,
 .gradient-four {
-  // background-image: linear-gradient(45deg, rgba(0, 255, 242, 0.616), rgba(0, 89, 255, 0.658));
   background-image: linear-gradient(
     45deg,
     rgba(255, 81, 0, 0.616),

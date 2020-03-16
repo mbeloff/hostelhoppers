@@ -5,14 +5,20 @@
         class="container mt-2"
         style="max-width: 1200px; min-width: 845px !important"
       >
-        <div class="row mb-4 position-relative">
-          <div class="position-absolute flex-center w-100">
+        <div class="row mb-4 position-relative flex-center">
+          <div
+            class="position-absolute flex-center flex-column"
+            style="width:35%; max-width: 80vw"
+          >
             <img
               src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1584332781/hh/hh-type2.svg"
               alt=""
               class="img-fluid"
-              style="z-index: 1"
+              style="z-index: 1; "
             />
+            <h2 class="white-text text-center subtitle">
+              Flexible, on-demand car rental
+            </h2>
           </div>
           <img
             src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1584321165/banner-nz.jpg"

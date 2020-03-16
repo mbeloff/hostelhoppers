@@ -1,13 +1,16 @@
 <template>
   <div>
-    <h1 class="orange-text mb-4 elegant-color text-center rounded">
-      Rental Locations
+    <h1 class="orange-text mb-4 text-center rounded">
+      Where to find us...
     </h1>
     <div class="mb-5" v-for="location in locations" :key="location">
-      <h5>{{ location.name }}</h5>
-      <p class="text-muted text-justify">
-        {{ location.desc }}
-      </p>
+      <div class="col-12 my-5">
+        <h5>Rental Locations in {{ location.name }}</h5>
+        <p class="text-justify">
+          {{ location.desc }}
+        </p>
+      </div>
+
       <div class="row mt-4">
         <div
           class="col-12 col-lg-6 mt-2"
@@ -20,7 +23,7 @@
                 <img :src="depot.img" alt="" class="img-fluid" />
               </div>
               <div class="col-6 py-2 pl-0">
-                <h6 class="orange-text">{{ depot.city }}</h6>
+                <h6 class="text-muted">{{ depot.city }}</h6>
                 <p class="mb-0 text-muted small">{{ depot.streetAdd }}</p>
                 <p class="mb-0 text-muted small">{{ depot.townAdd }}</p>
               </div>
@@ -41,7 +44,7 @@ export default {
         Australia: {
           name: 'Australia',
           desc:
-            "No matter where you are in Australia, you're never too far away from one of our friendly rental locations. We have 14 locations conveniently situated near all major cities, as well as near fanatastic holiday hotspots. Use Hostel Hoppers' flexible car rental passes and start planning some weekend getaways, or make your way across the country at your own pace.",
+            "No matter where you are in Australia, you're never too far away from one of our friendly rental locations. We have 14 locations conveniently situated near all major cities and fanatastic holiday hotspots. Use Hostel Hoppers' flexible car rental passes and start planning some weekend getaways, or make your way across the country at your own pace.",
           depots: [
             {
               city: 'Adelaide',

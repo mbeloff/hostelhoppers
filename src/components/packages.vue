@@ -34,7 +34,7 @@
         <feeTable class="col-12 col-md-5 text-muted small mt-5 mt-md-0" />
       </div>
     </div>
-  </div>
+  </template>
 </template>
 
 <script>

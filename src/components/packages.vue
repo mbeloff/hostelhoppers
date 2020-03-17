@@ -1,185 +1,51 @@
 <template>
   <div>
     <div class="container my-5">
-      <div class="row">
-        <div class="col-lg-3 col-6 mb-4">
-          <div class="pricing-card white-text not-featured">
-            <div class="gradient-one rounded-top">
-              <h4 class="option">30 Days</h4>
-            </div>
-            <div
-              class="card-body dark-grey-text striped green-striped card-background px-2"
-            >
-              <h2 class="my-0 my-sm-3 pb-3 h1 font-weight-light text-muted">
-                $360
-              </h2>
-              <ul>
-                <li>
-                  <p class="text-muted"><strong>12</strong> months to use</p>
-                </li>
-                <li>
-                  <p class="small text-muted">
-                    only <strong>$12</strong> a day!
-                  </p>
-                </li>
-              </ul>
-              <!-- <button type="button" class="my-1 btn aqua-gradient btn-rounded">
-                Buy now
-              </button> -->
-            </div>
+      <!-- <pricecards></pricecards> -->
+      <div class="col-lg-4 col-8 mb-4 mx-auto">
+        <div class="pricing-card white-text featured">
+          <div class="gradient-four rounded-top">
+            <h4 class="option">90 Days</h4>
           </div>
-        </div>
-        <div class="col-lg-3 col-6 mb-4">
-          <div class="pricing-card white-text not-featured">
-            <div class="gradient-two rounded-top">
-              <h4 class="option">45 Days</h4>
-            </div>
-            <div
-              class="card-body dark-grey-text striped blue-striped card-background px-2"
-            >
-              <h2 class="my-0 my-sm-3  pb-3 h1 font-weight-light text-muted">
-                $450
-              </h2>
-              <ul>
-                <li>
-                  <p class="text-muted"><strong>12</strong> months to use</p>
-                </li>
-                <li>
-                  <p class="small text-muted">
-                    only <strong>$10</strong> a day!
-                  </p>
-                </li>
-              </ul>
-              <!-- <button class="my-1 btn peach-gradient btn-rounded">
-                Buy now
-              </button> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-6 mb-4">
-          <div class="pricing-card white-text not-featured">
-            <div class="gradient-three rounded-top">
-              <h4 class="option">60 Days</h4>
-            </div>
-            <div
-              class="card-body dark-grey-text striped purple-striped card-background px-2"
-            >
-              <h2 class="my-0 my-sm-3  pb-3 h1 font-weight-light text-muted">
-                $500
-              </h2>
-              <ul>
-                <li>
-                  <p class="text-muted"><strong>12</strong> months to use</p>
-                </li>
-                <li>
-                  <p class="small text-muted">
-                    less than <strong> $9</strong> a day!
-                  </p>
-                </li>
-              </ul>
-              <!-- <button class="my-1 btn purple-gradient btn-rounded">
-                Buy now
-              </button> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-6 mb-4">
-          <div class="pricing-card white-text featured">
-            <div class="gradient-four rounded-top">
-              <h4 class="option">90 Days</h4>
-            </div>
-            <div
-              class="card-body dark-grey-text striped orange-striped card-background px-2"
-            >
-              <h2 class="my-0 my-sm-3 pb-3 h1 font-weight-light text-muted">
-                $600
-              </h2>
-              <ul>
-                <li>
-                  <p class="text-muted"><strong>12</strong> months to use</p>
-                </li>
-                <li>
-                  <p class="small text-muted daily">
-                    less than <strong>$7</strong> a day!
-                  </p>
-                </li>
-              </ul>
-              <!-- <button class="my-1 btn blue-gradient btn-rounded">
-                Buy now
-              </button> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-7">
           <div
-            class="col-12 h-100 d-flex flex-column view"
-            style="background-image: url(https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_800,w_800/v1583127953/DJI_0989.jpg); background-size: cover; background-position: 50% 50%; border-radius: 3px; min-height: 488px;"
+            class="card-body dark-grey-text striped orange-striped card-background px-2"
           >
-            <div class="mask rgba-white-slight"></div>
-            <h1 class="display-4 white-text text-center">
-              <!-- The Cheapest Way To Travel -->
-            </h1>
-            <Testimonials
-              class="my-auto rgba-white-strong rounded mb-3 py-3 z-depth-1 mx-0 mx-md-2"
-            ></Testimonials>
+            <h2 class="my-0 my-sm-3 pb-3 h1 font-weight-light text-muted">
+              $700
+            </h2>
+            <ul>
+              <li>
+                <p class="text-muted"><strong>12</strong> months to use</p>
+              </li>
+              <li>
+                <p class="small text-muted daily">
+                  less than <strong>$8</strong> a day!
+                </p>
+              </li>
+            </ul>
+            <!-- <button class="my-1 btn gradient-one btn-rounded">
+                Buy now
+              </button> -->
           </div>
         </div>
-        <div class="col-12 col-md-5 text-muted small mt-5 mt-md-0">
-          <h3 class="font-weight-bold orange-text pb-2 mb-4">
-            We've Got You Covered
-          </h3>
-          <p>
-            Full damage cover specifically designed for Hostel Hoppers, just pay
-            when you pick up your vehicle - we cover you for single and mulitple
-            vehicle accidents, tyres, windscreen, underbody and rollover damage.
-            For full details of cover, please refer to our terms and conditions.
-          </p>
-          <!-- <div class="col-12"> -->
-          <dl class="row not-featured rounded mb-0">
-            <h5 class="orange-text card-header col-12 pl-2 mb-2">
-              Damage Cover
-            </h5>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Standard Car</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$30/day</dd>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Tourer 5</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$45/day</dd>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">4WD SUV</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$55/day</dd>
-            <h5 class="orange-text card-header col-12 pl-2 mb-2">
-              Dropoff in a Different Location
-            </h5>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 1</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 2</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$300</dd>
-            <h5 class="orange-text card-header col-12 pl-2 mb-2">
-              Premium Location Fees
-            </h5>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
-              Darwin & Alice Springs
-            </dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$50</dd>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Exmouth</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
-            <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Broome</dt>
-            <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$200</dd>
-          </dl>
-          <!-- </div> -->
-        </div>
+      </div>
+      <div class="row mt-5 pt-5">
+        <Testimonials class="col-12 col-md-7" />
+        <feeTable class="col-12 col-md-5 text-muted small mt-5 mt-md-0" />
       </div>
     </div>
-  </div>
+  </template>
 </template>
 
 <script>
 import Testimonials from '@/components/Testimonials.vue'
+import feeTable from '@/components/feeTable.vue'
+// import pricecards from '@/components/pricecards.vue'
 export default {
   components: {
-    Testimonials
+    Testimonials,
+    feeTable
+    // pricecards
   }
 }
 </script>

@@ -1,0 +1,50 @@
+<template>
+  <div>
+    <h3 class="font-weight-bold orange-text pb-2 mb-4">
+      We've Got You Covered
+    </h3>
+    <p>
+      Full damage cover specifically designed for Hostel Hoppers, just pay when
+      you pick up your vehicle - we cover you for single and mulitple vehicle
+      accidents, tyres, windscreen, underbody and rollover damage. For full
+      details of cover, please refer to our terms and conditions.
+    </p>
+    <dl class="row not-featured rounded mb-0">
+      <h5 class="orange-text card-header col-12 pl-2 mb-2">
+        Damage Cover
+      </h5>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Standard Car</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$35/day</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Tourer 5</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$45/day</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">4WD SUV</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$55/day</dd>
+      <h5 class="orange-text card-header col-12 pl-2 mb-2">
+        Dropoff in a Different Location
+      </h5>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 1</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 2</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$300</dd>
+      <h5 class="orange-text card-header col-12 pl-2 mb-2">
+        Premium Location Fees
+      </h5>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
+        Darwin & Alice Springs
+      </dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$50</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Exmouth</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Broome</dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$200</dd>
+    </dl>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'fees'
+}
+</script>
+
+<style></style>

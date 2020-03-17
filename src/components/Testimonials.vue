@@ -1,23 +1,38 @@
 <template>
-  <mdb-carousel testimonial :interval="7000" controlls :items="7">
-    <template #[i+1] v-for="(testimonial, i) in testimonials">
-      <mdb-testimonial class="text-center" :key="i">
-        <p class="lead p-0 p-md-5 mb-0">
-          <sup><span class="fas fa-quote-left orange-text"></span></sup>
-          {{ testimonial.quote }}
-        </p>
-        <p class="font-weight-bold mb-0">{{ testimonial.name }}</p>
-        <p class="my-1 small">{{ testimonial.position }}</p>
-        <mdb-rating
-          class="small mb-2"
-          :value="testimonial.rating"
-          disabled
-          fas
-          iconActiveClass="orange-text"
-        />
-      </mdb-testimonial>
-    </template>
-  </mdb-carousel>
+  <div>
+    <div
+      class="col-12 h-100 d-flex flex-column view"
+      style="background-image: url(https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_800,w_800/v1583127953/DJI_0989.jpg); background-size: cover; background-position: 50% 50%; border-radius: 3px; min-height: 488px;"
+    >
+      <div class="mask rgba-white-slight"></div>
+   <mdb-carousel
+      class="my-auto rgba-white-strong rounded mb-3 py-3 z-depth-1 mx-0 mx-md-2"
+      testimonial
+      :interval="7000"
+      controlls
+      :items="7"
+    >
+      <template #[i+1] v-for="(testimonial, i) in testimonials">
+        <mdb-testimonial class="text-center" :key="i">
+          <p class="lead p-0 p-md-5 mb-0">
+            <sup><span class="fas fa-quote-left orange-text"></span></sup>
+            {{ testimonial.quote }}
+          </p>
+          <p class="font-weight-bold mb-0">{{ testimonial.name }}</p>
+          <p class="my-1 small">{{ testimonial.position }}</p>
+          <mdb-rating
+            class="small mb-2"
+            :value="testimonial.rating"
+            disabled
+            fas
+            iconActiveClass="orange-text"
+          />
+        </mdb-testimonial>
+      </template>
+    </mdb-carousel>
+    </div>
+    
+  </div>
 </template>
 
 <script>

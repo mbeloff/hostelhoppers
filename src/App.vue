@@ -10,7 +10,7 @@
     <div class="main-content">
       <router-view v-bind:global="$store.state.global" />
     </div>
-    
+
     <Footer v-bind:global="$store.state.global" />
   </div>
 </template>

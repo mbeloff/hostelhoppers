@@ -7,6 +7,7 @@
       sameSite="none"
     ></script>
     <NavBar />
+    <stripeCard></stripeCard>
     <div class="main-content">
       <router-view v-bind:global="$store.state.global" />
     </div>
@@ -18,11 +19,13 @@
 <script>
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
+import stripeCard from '@/components/stripeCard.vue'
 
 export default {
   components: {
     NavBar,
-    Footer
+    Footer,
+    stripeCard
   },
   name: 'app'
 }

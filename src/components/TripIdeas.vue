@@ -2,9 +2,9 @@
   <div class="text-muted">
     <h1 class="text-muted">Trip Ideas</h1>
     <p class="text-justify small">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia
-      recusandae et distinctio, ipsa voluptate nemo veniam dicta debitis nam
-      facilis ex. Enim, doloremque animi?
+      A Hostel Hoppers pass gives you the freedom to plan small journeys
+      throughout the year, or take huge, cross-country roadtrips. Here's a small
+      list of places you could be checking out along the way.
     </p>
     <div class="trips mb-4" v-for="region in trips" :key="region">
       <h4 class="amber-text">{{ region.country }}</h4>
@@ -14,8 +14,8 @@
         v-for="trip in region.short"
         :key="trip"
       >
-        <dt class="col-8 font-weight-normal">{{ trip.name }}</dt>
-        <dd class="col-4 mb-0">{{ trip.days }} days</dd>
+        <dt class="col-8 col-lg-9 font-weight-normal">{{ trip.name }}</dt>
+        <dd class="col-4 col-lg-3 mb-0">{{ trip.days }} days</dd>
       </dl>
       <h5 class="mt-2 amber-text">Longer Trips</h5>
       <dl
@@ -23,8 +23,8 @@
         v-for="trip in region.long"
         :key="trip"
       >
-        <dt class="col-8 font-weight-normal">{{ trip.name }}</dt>
-        <dd class="col-4 mb-0">{{ trip.days }} days</dd>
+        <dt class="col-8 col-lg-9 font-weight-normal">{{ trip.name }}</dt>
+        <dd class="col-4 col-lg-3 mb-0">{{ trip.days }} days</dd>
       </dl>
     </div>
   </div>

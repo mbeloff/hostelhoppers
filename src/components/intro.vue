@@ -1,40 +1,6 @@
 <template>
   <div>
-    <div class="intro-section d-flex flex-center view my-5">
-      <div
-        class="container mt-2"
-        style="max-width: 1200px; min-width: 845px !important"
-      >
-        <div class="row mb-4 position-relative flex-center">
-          <div
-            class="position-absolute flex-center flex-column"
-            style="width:35%; max-width: 80vw"
-          >
-            <img
-              src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1584332781/hh/hh-type2.svg"
-              alt=""
-              class="img-fluid"
-              style="z-index: 1; "
-            />
-            <h2 class="white-text text-center subtitle">
-              Flexible, on-demand car rental
-            </h2>
-          </div>
-          <img
-            src="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1584321165/banner-nz.jpg"
-            alt=""
-            class="img-fluid"
-          />
-        </div>
-      </div>
-      <!-- <div class="text-center">
-        <img class="header-logo" src="../assets/hh-type2.svg" alt="" />
-        <h3 class=" subtitle white-text mt-5">
-          flexible, on-demand car rental packages
-        </h3>
-      </div> -->
-    </div>
-
+    <banner></banner>
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
@@ -138,27 +104,17 @@
 </template>
 
 <script>
+import banner from '@/components/banner.vue'
+
 export default {
-  name: 'intro'
+  name: 'intro',
+  components: {
+    banner
+  }
 }
 </script>
 
 <style lang="scss">
-// .intro-section {
-//   margin-top: 50px;
-//   height: 100vh;
-//   max-height: 300px;
-//   background-image: url('https://res.cloudinary.com/dg5ybbkbh/image/upload/c_fill,h_1200,w_1200/v1583127953/DJI_0989.jpg');
-//   background-image: radial-gradient(rgb(151, 209, 248), rgb(0, 62, 112));
-//   background-size: 100vw 135%;
-//   background-repeat: no-repeat;
-//   background-position: 50% 50%;
-//   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
-//   @media only screen and (max-width: 500px) {
-//     background-size: 150vw 100%;
-//   }
-// }
-
 .intro-section {
   max-height: 300px;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);

@@ -14,7 +14,7 @@ export default {
   name: 'home',
   components: {
     intro,
-    packages
+    packages,
   },
   props: {
     global: Array

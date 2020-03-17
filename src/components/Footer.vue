@@ -14,7 +14,7 @@
           </div>
           <div class="col-12 col-md-6 mx-auto my-auto small">
             <div class="row">
-              <h6 class="text-center my-4 col-12">
+              <h6 class="text-center lead my-4 col-12">
                 18 Convenient Rental Locations
               </h6>
 

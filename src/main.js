@@ -7,7 +7,6 @@ import router from './router'
 import store from './store'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'vue-stripe-elements-plus'
 
 Vue.config.productionTip = false
 

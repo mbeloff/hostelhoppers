@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="font-weight-bold orange-text pb-2 mb-4">
+    <h3 class="orange-text pb-2 mb-4">
       We've Got You Covered
     </h3>
     <p>

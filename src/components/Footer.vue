@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="spacer"></div>
     <div class="container-fluid bg-light border-top border-bottom">
       <div class="container p-0">
         <div class="row">
@@ -12,9 +11,9 @@
               style=""
             />
           </div>
-          <div class="col-12 col-md-6 mx-auto my-auto small">
+          <div class="col-12 col-md-6 mx-auto my-auto text-muted small">
             <div class="row">
-              <h6 class="text-center lead my-4 col-12">
+              <h6 class="text-center h4 my-4 col-12">
                 18 Convenient Rental Locations
               </h6>
 
@@ -79,9 +78,5 @@ export default {
 
 .footer-brand {
   max-height: 50px;
-}
-
-.spacer {
-  min-height: 25vh;
 }
 </style>

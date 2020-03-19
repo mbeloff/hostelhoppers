@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
-          <h3 class="font-weight-bold orange-text pb-2 mb-4 text-left">
+          <h3 class="orange-text pb-2 mb-4 text-left">
             What is Hostel Hoppers?
           </h3>
           <p>
@@ -19,12 +19,13 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
-          <h3 class="font-weight-bold orange-text pb-2 mb-4 text-left">
+          <h3 class="orange-text pb-2 mb-4 text-left">
             How does it Work?
           </h3>
           <p>
-            Hostel Hoppers is a car rental season pass for 12 months. With a
-            season pass you can pick up a Hostel Hoppers car, 4WD SUV or
+            Hostel Hoppers is a pre-paid car rental season pass - 90 days of car
+            hire, that you can use at any time over the course of 12 months.
+            With a season pass you can pick up a Hostel Hoppers car, 4WD SUV or
             spacious tourer, anytime you want, whether it's for a day, a long
             weekend getaway, or a month-long cross-country roadtrip.
           </p>
@@ -48,7 +49,7 @@
           <div class="square-outside rounded-circle not-featured">
             <div class="square-inside flex-column flex-center">
               <i class="fal fa-route fa-2x"></i>
-              <p class="small font-weight-bold text-center">
+              <p class="small text-center">
                 Locations all <br />
                 around Australia <br />
                 and NZ
@@ -62,7 +63,7 @@
           <div class="square-outside rounded-circle not-featured">
             <div class="square-inside flex-column flex-center">
               <i class="fal fa-cogs fa-2x"></i>
-              <p class="small font-weight-bold text-center">
+              <p class="small text-center">
                 Automatic and <br />
                 Manual <br />
                 Available
@@ -76,7 +77,7 @@
           <div class="square-outside rounded-circle not-featured">
             <div class="square-inside flex-column flex-center">
               <i class="fal fa-id-card fa-2x"></i>
-              <p class="small font-weight-bold text-center">
+              <p class="small text-center">
                 All Valid <br />
                 Licences <br />
                 Accepted
@@ -90,7 +91,7 @@
           <div class="square-outside rounded-circle not-featured">
             <div class="square-inside flex-column flex-center">
               <i class="fal fa-comments-dollar fa-2x"></i>
-              <p class="small font-weight-bold text-center">
+              <p class="small text-center">
                 Credit/Debit Cards <br />
                 and Cash All <br />
                 Accepted

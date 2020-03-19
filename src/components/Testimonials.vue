@@ -13,7 +13,7 @@
         :items="7"
       >
         <template #[i+1] v-for="(testimonial, i) in testimonials">
-          <mdb-testimonial class="text-center" :key="i">
+          <div class="text-center" :key="i">
             <p class="lead p-0 p-md-5 mb-0">
               <sup><span class="fas fa-quote-left orange-text"></span></sup>
               {{ testimonial.quote }}
@@ -27,20 +27,19 @@
               fas
               iconActiveClass="orange-text"
             />
-          </mdb-testimonial>
+          </div>
         </template>
       </mdb-carousel>
     </div>
-  </div>
+  </template>
 </template>
 
 <script>
-import { mdbRating, mdbCarousel, mdbTestimonial } from 'mdbvue'
+import { mdbRating, mdbCarousel } from 'mdbvue'
 export default {
   name: 'Testimonials',
   components: {
     mdbCarousel,
-    mdbTestimonial,
     mdbRating
   },
   data() {

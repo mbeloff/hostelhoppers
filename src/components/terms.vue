@@ -66,5 +66,9 @@ ol {
       margin-right: 2rem;
     }
   }
+  @media only screen and (min-width: 800px) {
+    columns: 3;
+
+  }
 }
 </style>

@@ -6,13 +6,13 @@
       throughout the year, or take huge, cross-country roadtrips. Here's a small
       list of places you could be checking out along the way.
     </p>
-    <div class="trips mb-4" v-for="region in trips" :key="region">
+    <div class="trips mb-4" v-for="(region, i) in trips" :key="i">
       <h4 class="amber-text">{{ region.country }}</h4>
       <h5 class="mt-2 amber-text">Weekend Getaways</h5>
       <dl
         class="row mb-0 small no-gutters"
         v-for="trip in region.short"
-        :key="trip"
+        :key="trip.name"
       >
         <dt class="col-8 col-lg-9 font-weight-normal">{{ trip.name }}</dt>
         <dd class="col-4 col-lg-3 mb-0">{{ trip.days }} days</dd>
@@ -21,7 +21,7 @@
       <dl
         class="row mb-0 small no-gutters"
         v-for="trip in region.long"
-        :key="trip"
+        :key="trip.name"
       >
         <dt class="col-8 col-lg-9 font-weight-normal">{{ trip.name }}</dt>
         <dd class="col-4 col-lg-3 mb-0">{{ trip.days }} days</dd>

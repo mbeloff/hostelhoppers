@@ -42,11 +42,24 @@ body {
   min-height: calc(101vh - (76px + 50px));
 }
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600&display=swap');
+
 #app {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: #222;
+  color: rgb(53, 53, 53);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 </style>

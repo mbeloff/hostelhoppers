@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1 class="orange-text mb-4 text-center rounded">
+    <h1 class="orange-text mb-4 text-center">
       Where to find us...
     </h1>
-    <div class="mb-5" v-for="location in locations" :key="location">
+    <div class="mb-5" v-for="(location, i) in locations" :key="i">
       <div class="col-12 my-5">
-        <h5>Rental Locations in {{ location.name }}</h5>
+        <p>Rental Locations in {{ location.name }}</p>
         <p class="text-justify">
           {{ location.desc }}
         </p>
@@ -15,7 +15,7 @@
         <div
           class="col-12 col-lg-6 mt-2"
           v-for="depot in location.depots"
-          :key="depot"
+          :key="depot.city"
         >
           <div class="z-depth-1">
             <div class="row">

@@ -2,7 +2,14 @@
   <div>
     <div class="container my-5">
       <!-- <pricecards></pricecards> -->
-      <div class="col-lg-4 col-8 mb-4 mx-auto">
+      <h4
+        class="display-4 text-center mb-5 orange-text"
+        style="font-weight: 100 !important"
+      >
+        Get Your Pass <br />
+        Today
+      </h4>
+      <div class="col-6 col-lg-4 mx-auto">
         <div class="pricing-card white-text featured">
           <div class="gradient-four rounded-top">
             <h4 class="option">90 Days</h4>
@@ -23,12 +30,11 @@
                 </p>
               </li>
             </ul>
-            <!-- <button class="my-1 btn gradient-one btn-rounded">
-                Buy now
-              </button> -->
+            <Pay></Pay>
           </div>
         </div>
       </div>
+
       <div class="row mt-5 pt-5">
         <Testimonials class="col-12 col-md-7" />
         <feeTable class="col-12 col-md-5 text-muted small mt-5 mt-md-0" />
@@ -44,12 +50,14 @@
 import Testimonials from '@/components/Testimonials.vue'
 import feeTable from '@/components/feeTable.vue'
 import terms from '@/components/terms.vue'
+import Pay from '@/components/Pay.vue'
 // import pricecards from '@/components/pricecards.vue'
 export default {
   components: {
     Testimonials,
     feeTable,
-    terms
+    terms,
+    Pay
     // pricecards
   }
 }

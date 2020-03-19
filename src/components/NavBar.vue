@@ -34,31 +34,27 @@
             >
           </li>
         </ul>
-        <!-- <div class="navbar-nav ml-auto">
+        <div class="navbar-nav ml-auto">
           <div class="nav-item mt-2">
-            <iframe
-              src="https://condescending-albattani-a73c45.netlify.com"
-              frameborder="0"
-              scrolling="no"
-              width="100"
-              height="40"
-            ></iframe>
+            <Pay></Pay>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+import Pay from '@/components/Pay.vue'
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  components: { Pay }
 }
 </script>
 
 <style>
 #nav a {
-  font-weight: 600;
+  font-weight: 400;
   margin-right: 1rem;
 }
 

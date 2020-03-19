@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-// import Pay from '../views/Pay.vue'
 
 Vue.use(VueRouter)
 
@@ -22,11 +21,6 @@ const routes = [
       )
     }
   }
-  // {
-  //   path: '/pay',
-  //   name: 'Pay',
-  //   component: Pay
-  // }
 ]
 
 const router = new VueRouter({

@@ -33,6 +33,9 @@
         <Testimonials class="col-12 col-md-7" />
         <feeTable class="col-12 col-md-5 text-muted small mt-5 mt-md-0" />
       </div>
+      <div class="row my-5">
+        <terms class="col-12"></terms>
+      </div>
     </div>
   </div>
 </template>
@@ -40,11 +43,13 @@
 <script>
 import Testimonials from '@/components/Testimonials.vue'
 import feeTable from '@/components/feeTable.vue'
+import terms from '@/components/terms.vue'
 // import pricecards from '@/components/pricecards.vue'
 export default {
   components: {
     Testimonials,
-    feeTable
+    feeTable,
+    terms
     // pricecards
   }
 }

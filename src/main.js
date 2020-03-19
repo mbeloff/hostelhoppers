@@ -7,6 +7,8 @@ import router from './router'
 import store from './store'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '@stripe/stripe-js'
+import 'vue-stripe-checkout'
 
 Vue.config.productionTip = false
 

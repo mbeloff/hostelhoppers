@@ -32,7 +32,8 @@
           <p class="intro-text">
             And because your season pass covers the daily rental rate, you won't
             have to worry about prices fluctuating during the year, even during
-            peak season!
+            peak season! As you redeem your rental days, you'll just pay a fixed
+            daily amount for our comprehensive damage cover.
           </p>
           <p class="intro-text">
             Hostel Hoppers season passes can be transferred into another name,

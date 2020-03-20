@@ -154,29 +154,29 @@ export default {
 @-webkit-keyframes animate {
   0% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 20px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: -20px 30px 20px 2px rgba(226, 74, 36, 0.25);
   }
   50% {
     margin-top: 19vh;
-    box-shadow: -30px 50px 30px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: -30px 50px 30px 2px rgba(226, 74, 36, 0.1);
   }
   100% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 20px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: -20px 30px 20px 2px rgba(226, 74, 36, 0.25);
   }
 }
 @-webkit-keyframes hove {
   0% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(0, 0, 0, 0.212);
+    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
   }
   50% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(0, 0, 0, 0.212);
+    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
   }
   100% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(0, 0, 0, 0.212);
+    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
   }
 }
 

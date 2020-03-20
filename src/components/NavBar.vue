@@ -33,6 +33,11 @@
               >Locations & Trip Ideas</router-link
             >
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link router-link" to="/vehicles"
+              >Our Vehicles</router-link
+            >
+          </li>
         </ul>
         <div class="navbar-nav ml-auto">
           <div class="nav-item mt-2">
@@ -64,7 +69,7 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: orange;
+  color: #ff7535;
 }
 
 #nav .router-link::after {
@@ -86,7 +91,7 @@ export default {
   width: 100%;
   height: 5px;
   bottom: -5px;
-  background: rgb(253, 156, 9);
+  background: #ff7535;
   left: 0;
 }
 

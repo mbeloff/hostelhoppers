@@ -41,8 +41,8 @@ export default {
         quantity: 1
       }
     ],
-    successUrl: 'https://google.com',
-    cancelUrl: 'https://bing.com'
+    successUrl: 'https://hostelhoppers.com.au/success',
+    cancelUrl: 'https://hostelhoppers.com.au/cancelled'
   }),
   methods: {
     checkout() {

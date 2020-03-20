@@ -51,7 +51,7 @@
     <div id="footer">
       <div class="container-fluid bg-light p-2">
         <p class="mb-0 orange-text h3 text-center py-5 my-2">
-          Available from your friendly travel agent
+          Also available through your friendly travel agent
         </p>
       </div>
       <div class="container-fluid flex-center orange">
@@ -78,5 +78,13 @@ export default {
 
 .footer-brand {
   max-height: 50px;
+}
+
+.orange-text {
+  color: #ff7535 !important;
+}
+
+.orange {
+  background-color: #ff7535 !important;
 }
 </style>

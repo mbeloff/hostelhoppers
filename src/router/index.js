@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Success from '../views/Success.vue'
+import Cancelled from '../views/Cancelled.vue'
+import Vehicles from '../views/Vehicles.vue'
 
 Vue.use(VueRouter)
 
@@ -20,6 +23,21 @@ const routes = [
         '../views/Locations.vue'
       )
     }
+  },
+  {
+    path: '/success',
+    name: 'Success',
+    component: Success
+  },
+  {
+    path: '/cancelled',
+    name: 'Cancelled',
+    component: Cancelled
+  },
+  {
+    path: '/vehicles',
+    name: 'Vehicles',
+    component: Vehicles
   }
 ]
 

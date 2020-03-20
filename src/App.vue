@@ -42,14 +42,15 @@ body {
   min-height: calc(101vh - (76px + 50px));
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:200&display=swap');
 
 #app {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: rgb(53, 53, 53);
+  color: rgb(34, 34, 34);
+  font-weight: 300;
 }
 
 h1,
@@ -61,5 +62,16 @@ h6 {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 200;
+  color: #ff7535;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+.hh-text {
+  color: #ff7535;
 }
 </style>

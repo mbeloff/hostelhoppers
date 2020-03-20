@@ -31,7 +31,7 @@
         </template>
       </mdb-carousel>
     </div>
-  </template>
+  </div>
 </template>
 
 <script>

@@ -4,10 +4,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
-          <h3 class="orange-text pb-2 mb-4 text-left">
+          <h2 class="pb-2 mb-4 text-left h1">
             What is Hostel Hoppers?
-          </h3>
-          <p>
+          </h2>
+          <p class="intro-text">
             Hostel Hoppers is the cheapest and easiest way to travel around
             Australia and New Zealand. Get huge savings by grabbing a Hostel
             Hoppers season pass - pre-paid use of any Hostel Hoppers vehicle,
@@ -19,29 +19,29 @@
     <div class="container pt-5">
       <div class="row">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
-          <h3 class="orange-text pb-2 mb-4 text-left">
+          <h2 class="pb-2 mb-4 text-left h1">
             How does it Work?
-          </h3>
-          <p>
+          </h2>
+          <p class="intro-text">
             Hostel Hoppers is a pre-paid car rental season pass - 90 days of car
             hire, that you can use at any time over the course of 12 months.
             With a season pass you can pick up a Hostel Hoppers car, 4WD SUV or
             spacious tourer, anytime you want, whether it's for a day, a long
             weekend getaway, or a month-long cross-country roadtrip.
           </p>
-          <p>
+          <p class="intro-text">
             And because your season pass covers the daily rental rate, you won't
             have to worry about prices fluctuating during the year, even during
             peak season!
           </p>
-          <p>
+          <p class="intro-text">
             Hostel Hoppers season passes can be transferred into another name,
             or even extended for a small fee.
           </p>
         </div>
       </div>
     </div>
-    <div class="container pt-5 mb-5">
+    <!-- <div class="container pt-5 mb-5">
       <div class="d-flex flex-wrap justify-content-around">
         <div
           class="col-5 m-1 col-sm-4 m-sm-2 m-md-0 col-md-3 col-lg-2 p-1 p-md-2 text-sm-center"
@@ -100,7 +100,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -115,7 +115,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .intro-section {
   max-height: 300px;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
@@ -150,7 +150,7 @@ export default {
   height: 0;
   padding-top: 100%;
   // background: rgb(56, 56, 56);
-  border: 1px rgb(255, 136, 0) solid;
+  border: 0.5px rgb(255, 136, 0) solid;
   margin-bottom: 1rem;
   @media only screen and (max-width: 768px) {
     box-shadow: none;
@@ -168,5 +168,10 @@ export default {
   @media only screen and (min-width: 768px) {
     font-size: 1.2rem !important;
   }
+}
+
+.intro-text {
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 </style>

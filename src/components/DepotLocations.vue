@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="orange-text mb-4 text-center">
+    <h1 class="mb-4 text-center">
       Where to find us...
     </h1>
     <div class="mb-5" v-for="(location, i) in locations" :key="i">
@@ -11,19 +11,19 @@
         </p>
       </div>
 
-      <div class="row mt-4">
+      <div class="row mt-4 d-flex">
         <div
           class="col-12 col-lg-6 mt-2"
           v-for="depot in location.depots"
           :key="depot.city"
         >
-          <div class="z-depth-1">
-            <div class="row">
+          <div class="rounded h-100 border">
+            <div class="row h-100">
               <div class="col-6">
-                <img :src="depot.img" alt="" class="img-fluid" />
+                <img :src="depot.img" alt="" class="depot-img rounded-left" />
               </div>
               <div class="col-6 py-2 pl-0">
-                <h6 class="text-muted">{{ depot.city }}</h6>
+                <h6 class="hh-text font-weight-bold">{{ depot.city }}</h6>
                 <p class="mb-0 text-muted small">{{ depot.streetAdd }}</p>
                 <p class="mb-0 text-muted small">{{ depot.townAdd }}</p>
               </div>
@@ -187,4 +187,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.depot-img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+</style>

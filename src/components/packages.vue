@@ -6,7 +6,7 @@
         Get Your Pass <br />
         Today
       </h4>
-      <div class="col-12 col-md-6 mx-auto" style="height: 450px;">
+      <div class="col-12 col-md-6 mx-auto p-0" style="height: 400px;">
         <div class="persp position-absolute">
           <div class="menu">
             <div class="pricing-card white-text featured">
@@ -93,10 +93,10 @@ export default {
 .persp {
   width: 250px;
   // height: 300px;
-  // bottom: 0;
+  top: -25%;
   // margin-left: auto;
   // margin-right: auto;
-  // margin-top: 20vh;
+  margin-top: 20vh;
   margin-bottom: 50px;
   border-radius: 5px;
   cursor: pointer;
@@ -127,7 +127,7 @@ export default {
   }
   @media only screen and (max-width: 425px) {
     // animation: unset;
-    // margin-top: 20vh !important;
+    margin-top: 20vh !important;
     position: relative !important;
     left: 0%;
     width: 100%;
@@ -137,7 +137,7 @@ export default {
 }
 .persp:hover {
   animation-name: hove;
-  // margin-top: 19vh;
+  margin-top: 19vh;
   transition: all 0.3s ease-in-out;
   animation-timing-function: cubic-bezier(0.1, 0.32, 0.33, 0.99);
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -154,29 +154,29 @@ export default {
 
 @-webkit-keyframes animate {
   0% {
-    margin-top: 0vh;
+    margin-top: 20vh;
     box-shadow: -20px 30px 20px 2px rgba(226, 74, 36, 0.25);
   }
   50% {
-    margin-top: 1vh;
+    margin-top: 19vh;
     box-shadow: -30px 50px 30px 2px rgba(226, 74, 36, 0.1);
   }
   100% {
-    margin-top: 0vh;
+    margin-top: 20vh;
     box-shadow: -20px 30px 20px 2px rgba(226, 74, 36, 0.25);
   }
 }
 @-webkit-keyframes hove {
   0% {
-    margin-top: 1vh;
+    margin-top: 19.5vh;
     box-shadow: -20px 30px 50px 2px rgba(226, 74, 36, 0.2);
   }
   50% {
-    margin-top: 2vh;
+    margin-top: 20vh;
     box-shadow: -10px 10px 25px 2px rgba(226, 74, 36, 0.25);
   }
   100% {
-    margin-top: 1vh;
+    margin-top: 19.5vh;
     box-shadow: -20px 30px 50px 2px rgba(226, 74, 36, 0.2);
   }
 }

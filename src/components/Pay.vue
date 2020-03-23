@@ -44,7 +44,7 @@ export default {
       }
     ],
     successUrl: 'https://hostelhoppers.com.au/success',
-    cancelUrl: 'https://hostelhoppers.com.au/canceled'
+    cancelUrl: 'https://hostelhoppers.com.au/cancelled'
   }),
   methods: {
     checkout() {

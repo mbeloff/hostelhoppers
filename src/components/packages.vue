@@ -14,7 +14,7 @@
                 <p class="option h2">90 Days</p>
               </div>
               <div
-                class="card-body dark-grey-text striped orange-striped card-background px-2"
+                class="card-body dark-grey-text striped orange-striped card-background px-2 view"
               >
                 <p class="my-0 my-sm-3 pb-3 h1 font-weight-light text-muted">
                   $700
@@ -107,7 +107,7 @@ export default {
   animation-name: animate;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
+  animation-timing-function: cubic-bezier(0.1, 0.32, 0.33, 0.99);
   transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg);
   z-index: 1;
   // left: 28%;
@@ -139,6 +139,7 @@ export default {
   animation-name: hove;
   margin-top: 19vh;
   transition: all 0.3s ease-in-out;
+  animation-timing-function: cubic-bezier(0.1, 0.32, 0.33, 0.99);
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .persp .menu {
@@ -167,16 +168,16 @@ export default {
 }
 @-webkit-keyframes hove {
   0% {
-    margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
+    margin-top: 19.5vh;
+    box-shadow: -20px 30px 50px 2px rgba(226, 74, 36, 0.2);
   }
   50% {
     margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
+    box-shadow: -10px 10px 25px 2px rgba(226, 74, 36, 0.25);
   }
   100% {
-    margin-top: 20vh;
-    box-shadow: -20px 30px 30px 2px rgba(226, 74, 36, 0.212);
+    margin-top: 19.5vh;
+    box-shadow: -20px 30px 50px 2px rgba(226, 74, 36, 0.2);
   }
 }
 

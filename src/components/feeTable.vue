@@ -22,12 +22,16 @@
       <h5 class="card-header col-12 pl-2 mb-2">
         Dropoff in a Different Location
       </h5>
-      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 1</dt>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
+        Zone 1 (east coast aus & nz)
+      </dt>
       <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$100</dd>
-      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">Zone 2</dt>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
+        Zone 2 (west coast & central aus)
+      </dt>
       <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$300</dd>
       <h5 class="card-header col-12 pl-2 mb-2">
-        Premium Location Fees
+        Remote Location Fees
       </h5>
       <dt class="col-8 col-sm-7 col-md-6 col-lg-6">
         Darwin & Alice Springs

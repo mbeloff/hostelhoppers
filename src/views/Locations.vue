@@ -4,10 +4,10 @@
     <div class="container mt-2">
       <div class="row">
         <DepotLocations
-          class="col-12 col-md-8 order-1 order-md-2 ml-auto"
+          class="col-12 col-md-8 order-1 order-md-1 ml-auto"
         ></DepotLocations>
         <TripIdeas
-          class="col-12 col-md-4 order-2 order-md-1 mt-5 mt-md-0"
+          class="col-12 col-md-4 order-2 order-md-2 mt-5 mt-md-0"
         ></TripIdeas>
       </div>
     </div>

@@ -17,7 +17,7 @@
                 18 Convenient Rental Locations
               </h6>
 
-              <ul class="col-4 text-center mx-auto list-unstyled">
+              <ul class="col-4 text-left mx-auto list-unstyled">
                 <li>Adelaide</li>
                 <li>Airlie Beach</li>
                 <li>Alice Springs</li>
@@ -26,7 +26,7 @@
                 <li>Byron Bay</li>
               </ul>
 
-              <ul class="col-4 text-center mx-auto list-unstyled">
+              <ul class="col-4 text-left mx-auto list-unstyled">
                 <li>Cairns</li>
                 <li>Darwin</li>
                 <li>Exmouth</li>
@@ -35,7 +35,7 @@
                 <li>Monkey Mia</li>
               </ul>
 
-              <ul class="col-4 text-center mx-auto list-unstyled">
+              <ul class="col-4 text-left mx-auto list-unstyled">
                 <li>Perth</li>
                 <li>Sydney</li>
                 <li>Auckland</li>
@@ -49,11 +49,6 @@
       </div>
     </div>
     <div id="footer">
-      <div class="container-fluid bg-light p-2">
-        <p class="mb-0 orange-text h3 text-center py-5 my-2">
-          Also available through your friendly travel agent
-        </p>
-      </div>
       <div class="container-fluid flex-center orange">
         <p class="mb-0 white-text small">
           <i class="far fa-copyright vertical-align-middle"></i>

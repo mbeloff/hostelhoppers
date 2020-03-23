@@ -15,29 +15,36 @@
           </p>
         </div>
       </div>
-    </div>
-    <div class="container pt-5">
-      <div class="row">
+
+      <div class="row mt-5">
         <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
           <h2 class="pb-2 mb-4 text-left h1">
             How does it Work?
           </h2>
           <p class="intro-text">
-            Hostel Hoppers is a pre-paid car rental season pass - 90 days of car
-            hire, that you can use at any time over the course of 12 months.
-            With a season pass you can pick up a Hostel Hoppers car, 4WD SUV or
-            spacious tourer, anytime you want, whether it's for a day, a long
-            weekend getaway, or a month-long cross-country roadtrip.
+            Hostel Hoppers is a pre-paid season pass - 90 days of car hire that
+            you can use at any time over the course of 12 months. Just call us
+            to reserve a Hostel Hoppers car, 4WD SUV or spacious tourer at any
+            of our convenient rental locations - anytime you want.
+            <br /><br />
+            Your season pass covers your daily rental rate and works out to less
+            than 8 dollars a day. You'll never have to worry about prices
+            fluctuating during the year, even during peak season!
           </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-10 col-lg-9 mx-auto text-justify">
+          <h2 class="pb-2 mb-4 text-left h1">
+            What's included?
+          </h2>
           <p class="intro-text">
-            And because your season pass covers the daily rental rate, you won't
-            have to worry about prices fluctuating during the year, even during
-            peak season! As you redeem your rental days, you'll just pay a fixed
-            daily amount for our comprehensive damage cover.
-          </p>
-          <p class="intro-text">
-            Hostel Hoppers season passes can be transferred into another name,
-            or even extended for a small fee.
+            At Hostel Hoppers, we keep our fees minimal and as straight forward
+            as possible. You're season pass will cover your daily rental rate
+            and toll fees, and includes a generous 250km per day allowance. All
+            you pay when you collect a vehicle is damage cover and one-way fee
+            if you choose to drop off in a different location.
+            <span class="hh-text">Simple.</span>
           </p>
         </div>
       </div>

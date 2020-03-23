@@ -19,6 +19,11 @@
       <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$45/day</dd>
       <dt class="col-8 col-sm-7 col-md-6 col-lg-6">4WD SUV</dt>
       <dd class="col-4 col-sm-5 col-md-6 col-lg-6">$55/day</dd>
+      <dt class="col-8 col-sm-7 col-md-6 col-lg-6"></dt>
+      <dd class="col-4 col-sm-5 col-md-6 col-lg-6 hh-text">
+        ($5 extra for auto)
+      </dd>
+
       <h5 class="card-header col-12 pl-2 mb-2">
         Dropoff in a Different Location
       </h5>

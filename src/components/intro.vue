@@ -49,66 +49,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container pt-5 mb-5">
-      <div class="d-flex flex-wrap justify-content-around">
-        <div
-          class="col-5 m-1 col-sm-4 m-sm-2 m-md-0 col-md-3 col-lg-2 p-1 p-md-2 text-sm-center"
-        >
-          <div class="square-outside rounded-circle not-featured">
-            <div class="square-inside flex-column flex-center">
-              <i class="fal fa-route fa-2x"></i>
-              <p class="small text-center">
-                Locations all <br />
-                around Australia <br />
-                and NZ
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-5 m-1 col-sm-4 m-sm-2 m-md-0 col-md-3 col-lg-2 p-1 p-md-2 text-sm-center"
-        >
-          <div class="square-outside rounded-circle not-featured">
-            <div class="square-inside flex-column flex-center">
-              <i class="fal fa-cogs fa-2x"></i>
-              <p class="small text-center">
-                Automatic and <br />
-                Manual <br />
-                Available
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-5 m-1 col-sm-4 m-sm-2 m-md-0 col-md-3 col-lg-2 p-1 p-md-2 text-sm-center"
-        >
-          <div class="square-outside rounded-circle not-featured">
-            <div class="square-inside flex-column flex-center">
-              <i class="fal fa-id-card fa-2x"></i>
-              <p class="small text-center">
-                All Valid <br />
-                Licences <br />
-                Accepted
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-5 m-1 col-sm-4 m-sm-2 m-md-0 col-md-3 col-lg-2 p-1 p-md-2 text-sm-center"
-        >
-          <div class="square-outside rounded-circle not-featured">
-            <div class="square-inside flex-column flex-center">
-              <i class="fal fa-comments-dollar fa-2x"></i>
-              <p class="small text-center">
-                Credit/Debit Cards <br />
-                and Cash All <br />
-                Accepted
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </template>
 
@@ -153,33 +93,9 @@ export default {
   }
 }
 
-.square-outside {
-  position: relative;
-  height: 0;
-  padding-top: 100%;
-  // background: rgb(56, 56, 56);
-  border: 0.5px rgb(255, 136, 0) solid;
-  margin-bottom: 1rem;
-  @media only screen and (max-width: 768px) {
-    box-shadow: none;
-  }
-}
-
-.square-inside {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  color: rgb(243, 157, 29) !important;
-  font-size: 1rem;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.2rem !important;
-  }
-}
-
 .intro-text {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  color: rgb(87, 81, 81) !important;
 }
 </style>

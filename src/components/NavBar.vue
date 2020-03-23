@@ -43,7 +43,7 @@
           <div
             class="nav-item d-flex flex-column flex-lg-row flex-center justify-content-between mt-2"
           >
-            <p class="h4 hh-text mr-2">1800 24 68 69</p>
+            <!-- <p class="h4 hh-text mr-2">1800 24 68 69</p> -->
             <Pay></Pay>
           </div>
         </div>

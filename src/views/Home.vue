@@ -2,6 +2,7 @@
   <div class="home">
     <intro></intro>
     <packages></packages>
+    <maplist></maplist>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import intro from '@/components/intro.vue'
 import packages from '@/components/packages.vue'
+import maplist from '@/components/maplist.vue'
 
 export default {
   name: 'home',
   components: {
     intro,
-    packages
+    packages,
+    maplist
   },
   props: {
     global: Array

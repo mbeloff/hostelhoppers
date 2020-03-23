@@ -3,8 +3,9 @@
     <h1 class="text-muted">Trip Ideas</h1>
     <p class="text-justify small">
       A Hostel Hoppers pass gives you the freedom to plan small journeys
-      throughout the year, or take huge, cross-country roadtrips. Here's a small
-      list of places you could be checking out along the way.
+      throughout the year, or take huge, cross-country roadtrips. To get your
+      imagination running, here's a small list of places you could be checking
+      out along the way.
     </p>
     <div class="trips mb-4" v-for="(region, i) in trips" :key="i">
       <h4 class="font-weight-bold card-header elegant-color">

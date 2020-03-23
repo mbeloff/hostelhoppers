@@ -114,10 +114,12 @@ export default {
 
   @media only screen and (min-width: 720px) {
     left: 27%;
+    top: -35% !important;
     transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg);
   }
   @media only screen and (max-width: 720px) {
     left: 25%;
+    top: -35% !important;
     transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg);
   }
   @media only screen and (max-width: 500px) {

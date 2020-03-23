@@ -93,7 +93,7 @@ export default {
 .persp {
   width: 250px;
   // height: 300px;
-  top: -35%;
+  top: -50%;
   // margin-left: auto;
   // margin-right: auto;
   margin-top: 20vh;
@@ -114,23 +114,24 @@ export default {
 
   @media only screen and (min-width: 720px) {
     left: 27%;
-    top: -45% !important;
+    // top: -50% !important;
     transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg);
   }
   @media only screen and (max-width: 720px) {
     left: 25%;
-    top: -45% !important;
+    // top: -50% !important;
     transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg);
   }
   @media only screen and (max-width: 500px) {
     left: 22%;
+    top: -25%;
     transform: perspective(1000px) rotateX(50deg) rotateY(4deg) rotateZ(-30deg)
       scale(0.8);
   }
   @media only screen and (max-width: 425px) {
     // animation: unset;
-    top: -25% !important;
-    margin-top: 20vh !important;
+    // top: -25% !important;
+    // margin-top: 20vh !important;
     position: relative !important;
     left: 0%;
     width: 100%;

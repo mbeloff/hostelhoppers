@@ -40,10 +40,10 @@
           </h2>
           <p class="intro-text">
             At Hostel Hoppers, we keep our fees minimal and as straight forward
-            as possible. You're season pass will cover your daily rental rate
-            and toll fees, and includes a generous 250km per day allowance. All
-            you pay when you collect a vehicle is damage cover and one-way fee
-            if you choose to drop off in a different location.
+            as possible. A season pass will cover your daily rental rate and
+            toll fees, and includes a generous 250km per day allowance. All you
+            pay when you collect a vehicle is damage cover and one-way fee if
+            you choose to drop off in a different location.
             <span class="hh-text">Simple.</span>
           </p>
         </div>

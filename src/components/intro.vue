@@ -27,9 +27,9 @@
             to reserve a Hostel Hoppers car, 4WD SUV or spacious tourer at any
             of our convenient rental locations - anytime you want.
             <br /><br />
-            Your season pass covers your daily rental rate and works out to less
-            than 8 dollars a day. You'll never have to worry about prices
-            fluctuating during the year, even during peak season!
+            Your season pass covers your daily rental rate (less than $8 per
+            day!). You'll never have to worry about prices fluctuating during
+            the year, even during peak season!
           </p>
         </div>
       </div>

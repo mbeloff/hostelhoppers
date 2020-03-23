@@ -93,7 +93,7 @@ export default {
 .persp {
   width: 250px;
   // height: 300px;
-  top: -25%;
+  top: -35%;
   // margin-left: auto;
   // margin-right: auto;
   margin-top: 20vh;
@@ -127,6 +127,7 @@ export default {
   }
   @media only screen and (max-width: 425px) {
     // animation: unset;
+    top: -25% !important;
     margin-top: 20vh !important;
     position: relative !important;
     left: 0%;

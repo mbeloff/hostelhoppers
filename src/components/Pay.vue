@@ -39,7 +39,7 @@ export default {
     publishableKey: 'pk_live_WExzLvKS4ZMkJHeiTeC3BaGY005wECFs30',
     items: [
       {
-        sku: 'sku_GxcnyaJvbRQIXQ',
+        sku: 'sku_GwV9FvY7oHyZM4',
         quantity: 1
       }
     ],

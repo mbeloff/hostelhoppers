@@ -3,51 +3,9 @@
     <h6 class="mb-0">Terms & Conditions</h6>
     <hr class="mt-0" />
     <ol>
-      <li>
-        Pick up and drop off in any Campervan VIllage locations around Australia
-        and New Zealand
+      <li v-for="term in terms" :key="term">
+        {{ term }}
       </li>
-      <li>
-        250km a day included free with all hires. Extra kilometres charged at
-        $0.20 per kilometre
-      </li>
-      <li>
-        Damage cover excludes driving while under the influence of drugs or
-        alochol, falling asleep at the wheel and malicious damage by the hirer
-      </li>
-      <li>
-        Should there be a major incident (mechanical fault or crash) a
-        replacement vehicle will be available at the closest Campervan Village
-        location
-      </li>
-      <li>
-        Manual and automatic vehicles are available, damage cover for an
-        automatic is $5/day extra
-      </li>
-      <li>
-        Vehicles come with 1/4 tank of fuel and must be returned with the same
-        amount
-      </li>
-      <li>
-        Tyres and windscreen damage is included in damage cover. Underbody, side
-        impact, front impact, rear impact and rollover damage are all included
-      </li>
-      <li>Single vehicle damage included</li>
-      <li>
-        Standard vehicle bond is $500, SUV bond is $1000. Bonds are payable by
-        credit and debit card at the first day of hire and held til the end of
-        the term of credit
-      </li>
-      <li>
-        Incident with another vehicle or single vehicle incident liability is
-        one dollar
-      </li>
-      <li>
-        Any malicious damage is a criminal offence and must be reported to the
-        police
-      </li>
-      <li>No refunds will be given for credit not used</li>
-      <li>Toll fees icluded</li>
     </ol>
     <div class="col-12">
       <a
@@ -64,7 +22,27 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      terms: [
+        'Pick up and drop off in any Campervan Village location around Australia and New Zealand',
+        '250km per day included free with all hires. Extra kilometres charged at $0.20 per kilometre',
+        'Damage cover excluded and damage resulting from driving under the influence of drugs or alcohol, falling asleep at the wheel and malicious damage by the hirer',
+        'In the event of a major incident (mechanical fault or crash) a replacement vehicle with be available at the nearest Campervan Village location',
+        'Manual and automatic vehicle are available, damage for automatic vehicles is $5/day extra',
+        'Vehicles come with 1/4 tank of fuel and must be return with at least this amount',
+        'Tyres and windscreen damage, Underbody, side/front/rear impact and rollover damage are all covered.',
+        'Single vehicle damage included',
+        'Standard vehicle bond is $500, SUV bond is $1000. Bonds are payable by credit and debit card at the first day of hire and held til the end of the term of credit',
+        'Incident with another vehicle or single vehicle incident liability is one dollar',
+        'Any malicious damage is a criminal offence and must be reported to the police',
+        'No refunds will be given for credit not used',
+        'Toll fees icluded'
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">

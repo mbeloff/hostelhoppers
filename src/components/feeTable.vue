@@ -7,7 +7,7 @@
       Full damage cover specifically designed for Hostel Hoppers, just pay when
       you pick up your vehicle - we cover you for single and mulitple vehicle
       accidents, tyres, windscreen, underbody and rollover damage. For full
-      details of cover, please refer to our terms and conditions. <br>
+      details of cover, please refer to our terms and conditions. <br />
       <span class="small"
         >Please note: damage cover is mandatory for all Hostel Hoppers
         hires.</span

@@ -50,8 +50,15 @@
       <li>Toll fees icluded</li>
     </ol>
     <div class="col-12">
-      <a href="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1585022589/hh/hostelhoppers_policies_0320.pdf">Policies</a> |
-      <a href="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1585023044/hh/hostelhoppers_VRA_0320.pdf">Vehicle Rental Agreement</a>
+      <a
+        href="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1585022589/hh/hostelhoppers_policies_0320.pdf"
+        >Policies</a
+      >
+      |
+      <a
+        href="https://res.cloudinary.com/dg5ybbkbh/image/upload/v1585023044/hh/hostelhoppers_VRA_0320.pdf"
+        >Vehicle Rental Agreement</a
+      >
     </div>
   </div>
 </template>
@@ -72,7 +79,6 @@ ol {
   }
   @media only screen and (min-width: 800px) {
     columns: 3;
-
   }
 }
 </style>
